@@ -150,3 +150,28 @@ left:0;
 .dress-gallery img:hover{
     transform:scale(1.05);
 }
+.dresscode{
+  text-align:center;
+}
+
+.dress-colors{
+  display:flex;
+  justify-content:center;
+  gap:14px;
+  margin:24px 0 14px;
+  flex-wrap:wrap;
+}
+
+.dress-colors span{
+  width:54px;
+  height:54px;
+  border-radius:50%;
+  display:block;
+  border:1px solid rgba(0,0,0,.12);
+  box-shadow:0 6px 18px rgba(0,0,0,.08);
+}
+
+.dress-text{
+  font-size:16px;
+  color:var(--text);
+}
