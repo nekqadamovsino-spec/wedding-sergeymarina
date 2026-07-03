@@ -185,3 +185,10 @@ left:0;
   opacity:1 !important;
   transform:none !important;
 }
+.second-location h3{
+    font-size:28px;
+    font-weight:400;
+    letter-spacing:.18em;
+    text-transform:uppercase;
+    margin:0;
+}
