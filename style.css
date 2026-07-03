@@ -181,3 +181,7 @@ left:0;
     margin-left:8px;
     opacity:.75;
 }
+.reveal{
+  opacity:1 !important;
+  transform:none !important;
+}
