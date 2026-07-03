@@ -16,10 +16,10 @@
 <body>
   <div class="video-bg">
     <video autoplay muted loop playsinline preload="auto">
-        <source src="assets/video/silk.mp4" type="video/mp4">
+      <source src="assets/video/silk.mp4" type="video/mp4">
     </video>
     <div class="video-overlay"></div>
-</div>
+  </div>
   <div class="grain"></div>
 
   <main>
@@ -36,6 +36,7 @@
         <a href="#invite" class="down">⌄</a>
       </div>
     </section>
+
     <section class="screen invite" id="invite">
       <div class="inner narrow reveal">
         <h2>Родные и близкие!</h2>
@@ -65,18 +66,12 @@
         <h2>Локация</h2>
         <p class="script">Место проведения</p>
         <div class="place">
-    <h3>ЗАГС • 12:00</h3>
-    <p>Грибоедовский ЗАГС</p>
-    <small>Малый Харитоньевский пер., 10, с1</small>
-</div>
-
-<img class="location-photo" src="rospic.jpg" alt="Роспись">
-
-<a class="map-btn"
-   target="_blank"
-   href="https://yandex.ru/maps/?text=Малый%20Харитоньевский%20пер.,%2010,%20с1">
-    📍 Открыть карту
-</a>
+          <h3>ЗАГС • 12:00</h3>
+          <p>Грибоедовский ЗАГС</p>
+          <small>Малый Харитоньевский пер., 10, с1</small>
+        </div>
+        <img class="location-photo" src="rospic.jpg" alt="Роспись">
+        <a class="map-btn" target="_blank" href="https://yandex.ru/maps/?text=Малый%20Харитоньевский%20пер.,%2010,%20с1">📍 Открыть карту</a>
       </div>
     </section>
 
@@ -85,75 +80,58 @@
         <h2>Обед • 14:00</h2>
         <p class="script">Ресторан «Светлый»</p>
         <div class="place">
-    <p>Большой Харитоньевский пер., 21, с3</p>
-</div>
-
-<img class="location-photo" src="banket.jpg" alt="Банкет">
-
-<a class="map-btn"
-   target="_blank"
-   href="https://yandex.ru/maps/?text=Большой%20Харитоньевский%20пер.,%2021,%20с3">
-    📍 Открыть карту
-</a>
+          <p>Большой Харитоньевский пер., 21, с3</p>
+        </div>
+        <img class="location-photo" src="banket.jpg" alt="Банкет">
+        <a class="map-btn" target="_blank" href="https://yandex.ru/maps/?text=Большой%20Харитоньевский%20пер.,%2021,%20с3">📍 Открыть карту</a>
       </div>
     </section>
+
     <section class="screen dress">
-<section class="screen dress">
-  <div class="inner card reveal">
-    <h2>Dress <em>Code</em></h2>
-    <p>Для нас главное — ваше присутствие.</p>
-    <p>Будем благодарны, если вы поддержите стилистику торжества в синих, голубых и бежевых тонах.</p>
+      <div class="inner card reveal">
+        <h2>Dress <em>Code</em></h2>
+        <p>Для нас главное — ваше присутствие.</p>
+        <p>Будем благодарны, если вы поддержите стилистику торжества в синих, голубых и бежевых тонах.</p>
 
-    <div class="dresscode">
-      <h2>Дресс-код</h2>
-      <p>Будем рады, если вы поддержите цветовую гамму нашего праздника:</p>
-
-      <div class="dress-colors">
-        <span style="background:#d8c3a5"></span>
-        <span style="background:#f1e3cf"></span>
-        <span style="background:#4f8fcf"></span>
-        <span style="background:#a9d6f5"></span>
-        <span style="background:#1f4e79"></span>
+        <div class="dresscode">
+          <h2>Дресс-код</h2>
+          <p>Будем рады, если вы поддержите цветовую гамму нашего праздника:</p>
+          <div class="dress-colors">
+            <span style="background:#d8c3a5"></span>
+            <span style="background:#f1e3cf"></span>
+            <span style="background:#4f8fcf"></span>
+            <span style="background:#a9d6f5"></span>
+            <span style="background:#1f4e79"></span>
+          </div>
+          <p class="dress-text">Синие, голубые и бежевые тона</p>
+        </div>
       </div>
+    </section>
 
-      <p class="dress-text">Синие, голубые и бежевые тона</p>
-    </div>
-  </div>
-</section>
+    <section class="screen rsvp">
       <div class="inner card reveal">
         <h2>Подтвердите присутствие</h2>
         <p>Пожалуйста, дайте ответ до 15 июля.</p>
-<form id="rsvpForm">
-  <input name="name" placeholder="Ваше имя" required>
+        <form id="rsvpForm">
+          <input name="name" placeholder="Ваше имя" required>
 
-  <div class="form-group">
-    <p>Сможете ли присутствовать?</p>
+          <div class="form-group">
+            <p>Сможете ли присутствовать?</p>
+            <label><input type="radio" name="guest" value="Да" required> Да</label>
+            <label><input type="radio" name="guest" value="К сожалению, не смогу присутствовать"> К сожалению, не смогу присутствовать</label>
+          </div>
 
-    <label>
-      <input type="radio" name="guest" value="Да" required>
-      Да
-    </label>
+          <div class="form-group">
+            <p>Что предпочитаете из горячего?</p>
+            <label><input type="checkbox" name="alcohol" value="Рыба"> Рыба</label>
+            <label><input type="checkbox" name="alcohol" value="Курица"> Курица</label>
+            <label><input type="checkbox" name="alcohol" value="Утка"> Утка</label>
+          </div>
 
-    <label>
-      <input type="radio" name="guest" value="К сожалению, не смогу присутствовать">
-      К сожалению, не смогу присутствовать
-    </label>
-  </div>
-
-  <div class="form-group">
-    <p>Что предпочитаете из горячего?</p>
-    
-    <label><input type="checkbox" name="alcohol" value="Рыба"> Рыба</label>
-    <label><input type="checkbox" name="alcohol" value="Курица"> Курица</label>
-    <label><input type="checkbox" name="alcohol" value="Утка"> Утка</label>
-  </div>
-
-  <textarea name="comment" placeholder="Комментарий / пожелание"></textarea>
-
-  <button type="submit">Отправить</button>
-</form>
-
-<p class="status" id="status"></p>
+          <textarea name="comment" placeholder="Комментарий / пожелание"></textarea>
+          <button type="submit">Отправить</button>
+        </form>
+        <p class="status" id="status"></p>
       </div>
     </section>
 
@@ -162,8 +140,7 @@
       <span>29.07.2026</span>
     </footer>
   </main>
+
   <script src="script.js?v=3"></script>
 </body>
 </html>
-
-      
