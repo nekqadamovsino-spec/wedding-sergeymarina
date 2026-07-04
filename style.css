@@ -175,11 +175,14 @@ left:0;
   font-size:16px;
   color:var(--text);
 }
-.place h3 .time{
-    font-size:18px;
+.place h3{
+    font-family:'Cormorant Garamond', serif;
+    font-size:32px;
     font-weight:400;
-    margin-left:8px;
-    opacity:.75;
+    letter-spacing:.18em;
+    text-transform:uppercase;
+    margin:18px 0 10px;
+    color:var(--title);
 }
 .reveal{
   opacity:1 !important;
