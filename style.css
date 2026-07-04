@@ -155,20 +155,21 @@ left:0;
 }
 
 .dress-colors{
-  display:flex;
-  justify-content:center;
-  gap:14px;
-  margin:24px 0 14px;
-  flex-wrap:wrap;
+    display:flex;
+    justify-content:center;
+    gap:10px;
+    margin:24px 0 14px;
+    flex-wrap:nowrap;      /* все в один ряд */
 }
 
 .dress-colors span{
-  width:54px;
-  height:54px;
-  border-radius:50%;
-  display:block;
-  border:1px solid rgba(0,0,0,.12);
-  box-shadow:0 6px 18px rgba(0,0,0,.08);
+    width:52px;
+    height:52px;
+    border-radius:8px;     /* квадрат с немного скругленными углами */
+    display:block;
+    border:1px solid rgba(0,0,0,.12);
+    box-shadow:0 6px 18px rgba(0,0,0,.08);
+    flex-shrink:0;
 }
 
 .dress-text{
