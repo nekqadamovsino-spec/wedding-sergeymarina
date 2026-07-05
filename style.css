@@ -196,3 +196,9 @@ left:0;
     text-transform:uppercase;
     margin:0;
 }
+.details p{
+    font-size:18px;
+    line-height:1.8;
+    max-width:520px;
+    margin:18px auto 0;
+}
